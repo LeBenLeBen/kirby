@@ -146,6 +146,7 @@ class File extends ModelWithContent
 
     /**
      * Returns the url to api endpoint
+     * @internal
      *
      * @param bool $relative
      * @return string
@@ -156,7 +157,7 @@ class File extends ModelWithContent
     }
 
     /**
-     * Returns the Asset object
+     * Returns the Image object
      *
      * @return Image
      */
@@ -203,6 +204,7 @@ class File extends ModelWithContent
     /**
      * Store the template in addition to the
      * other content.
+     * @internal
      *
      * @param array $data
      * @param string|null $languageCode
@@ -218,6 +220,7 @@ class File extends ModelWithContent
     /**
      * Returns the directory in which
      * the content file is located
+     * @internal
      *
      * @return string
      */
@@ -228,6 +231,7 @@ class File extends ModelWithContent
 
     /**
      * Filename for the content file
+     * @internal
      *
      * @return string
      */
@@ -273,6 +277,7 @@ class File extends ModelWithContent
      * tag for the file, which will be
      * used in the panel, when the file
      * gets dragged onto a textarea
+     * @internal
      *
      * @return string
      */
@@ -373,6 +378,7 @@ class File extends ModelWithContent
 
     /**
      * Create a unique media hash
+     * @internal
      *
      * @return string
      */
@@ -383,6 +389,7 @@ class File extends ModelWithContent
 
     /**
      * Returns the absolute path to the file in the public media folder
+     * @internal
      *
      * @return string
      */
@@ -393,6 +400,7 @@ class File extends ModelWithContent
 
     /**
      * Returns the absolute Url to the file in the public media folder
+     * @internal
      *
      * @return string
      */
@@ -402,9 +410,7 @@ class File extends ModelWithContent
     }
 
     /**
-     * Alias for the old way of fetching File
-     * content. Nowadays `File::content()` should
-     * be used instead.
+     * @deprecated 3.0.0 Use `File::content()` instead
      *
      * @return Content
      */
@@ -417,6 +423,7 @@ class File extends ModelWithContent
      * Returns the parent model.
      * This is normally the parent page
      * or the site object.
+     * @internal
      *
      * @return Site|Page
      */
@@ -449,6 +456,7 @@ class File extends ModelWithContent
 
     /**
      * Panel icon definition
+     * @internal
      *
      * @param array $params
      * @return array
@@ -499,6 +507,7 @@ class File extends ModelWithContent
 
     /**
      * Panel image definition
+     * @internal
      *
      * @param string|array|false $settings
      * @param array $thumbSettings
@@ -539,6 +548,7 @@ class File extends ModelWithContent
 
     /**
      * Returns the full path without leading slash
+     * @internal
      *
      * @return string
      */
@@ -550,6 +560,7 @@ class File extends ModelWithContent
     /**
      * Returns the url to the editing view
      * in the panel
+     * @internal
      *
      * @param bool $relative
      * @return string
@@ -571,6 +582,7 @@ class File extends ModelWithContent
 
     /**
      * Returns the parent id if a parent exists
+     * @internal
      *
      * @return string|null
      */
@@ -620,6 +632,7 @@ class File extends ModelWithContent
 
     /**
      * Creates a string query, starting from the model
+     * @internal
      *
      * @param string|null $query
      * @param string|null $expect
@@ -760,6 +773,7 @@ class File extends ModelWithContent
 
     /**
      * Returns the parent Files collection
+     * @internal
      *
      * @return Files
      */

@@ -147,6 +147,7 @@ class App
 
     /**
      * Returns the Api instance
+     * @internal
      *
      * @return Api
      */
@@ -171,6 +172,7 @@ class App
 
     /**
      *  Apply a hook to the given value
+     * @internal
      *
      * @param string $name
      * @param mixed $value
@@ -267,6 +269,7 @@ class App
 
     /**
      * Returns a core component
+     * @internal
      *
      * @param string $name
      * @return mixed
@@ -278,6 +281,7 @@ class App
 
     /**
      * Returns the content extension
+     * @internal
      *
      * @return string
      */
@@ -288,6 +292,7 @@ class App
 
     /**
      * Returns files that should be ignored when scanning folders
+     * @internal
      *
      * @return array
      */
@@ -367,6 +372,7 @@ class App
     /**
      * Destroy the instance singleton and
      * purge other static props
+     * @internal
      */
     public static function destroy()
     {
@@ -465,6 +471,7 @@ class App
     /**
      * Takes almost any kind of input and
      * tries to convert it into a valid response
+     * @internal
      *
      * @param mixed $input
      * @return Response
@@ -550,6 +557,7 @@ class App
 
     /**
      * Renders a single KirbyTag with the given attributes
+     * @internal
      *
      * @param string $type
      * @param string $value
@@ -568,6 +576,7 @@ class App
 
     /**
      * KirbyTags Parser
+     * @internal
      *
      * @param string $text
      * @param array $data
@@ -584,6 +593,7 @@ class App
 
     /**
      * Parses KirbyTags first and Markdown afterwards
+     * @internal
      *
      * @param string $text
      * @param array $data
@@ -624,6 +634,7 @@ class App
 
     /**
      * Returns the current language code
+     * @internal
      *
      * @return string|null
      */
@@ -648,6 +659,7 @@ class App
 
     /**
      * Parses Markdown
+     * @internal
      *
      * @param string $text
      * @return string
@@ -659,6 +671,7 @@ class App
 
     /**
      * Check for a multilang setup
+     * @internal
      *
      * @return boolean
      */
@@ -909,6 +922,7 @@ class App
 
     /**
      * Returns the Router singleton
+     * @internal
      *
      * @return Router
      */
@@ -1050,6 +1064,7 @@ class App
 
     /**
      * Applies the smartypants rule on the text
+     * @internal
      *
      * @param string $text
      * @return string
@@ -1062,6 +1077,7 @@ class App
     /**
      * Uses the snippet component to create
      * and return a template snippet
+     * @internal
      *
      * @return Snippet
      */
@@ -1083,6 +1099,7 @@ class App
     /**
      * Uses the template component to initialize
      * and return the Template object
+     * @internal
      *
      * @return Template
      */

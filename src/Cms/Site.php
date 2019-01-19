@@ -142,6 +142,7 @@ class Site extends ModelWithContent
 
     /**
      * Returns the url to the api endpoint
+     * @internal
      *
      * @param bool $relative
      * @return string
@@ -216,6 +217,7 @@ class Site extends ModelWithContent
 
     /**
      * Prepares the content for the write method
+     * @internal
      *
      * @return array
      */
@@ -228,6 +230,7 @@ class Site extends ModelWithContent
 
     /**
      * Filename for the content file
+     * @internal
      *
      * @return string
      */
@@ -256,6 +259,7 @@ class Site extends ModelWithContent
 
     /**
      * Returns the global error page id
+     * @internal
      *
      * @return string
      */
@@ -294,6 +298,7 @@ class Site extends ModelWithContent
 
     /**
      * Returns the global home page id
+     * @internal
      *
      * @return string
      */
@@ -326,6 +331,7 @@ class Site extends ModelWithContent
 
     /**
      * Returns the root to the media folder for the site
+     * @internal
      *
      * @return string
      */
@@ -336,6 +342,7 @@ class Site extends ModelWithContent
 
     /**
      * The site's base url for any files
+     * @internal
      *
      * @return string
      */
@@ -398,6 +405,7 @@ class Site extends ModelWithContent
 
     /**
      * Returns the full path without leading slash
+     * @internal
      *
      * @return string
      */
@@ -409,6 +417,7 @@ class Site extends ModelWithContent
     /**
      * Returns the url to the editing view
      * in the panel
+     * @internal
      *
      * @param bool $relative
      * @return string
@@ -434,6 +443,7 @@ class Site extends ModelWithContent
 
     /**
      * Creates a string query, starting from the model
+     * @internal
      *
      * @param string|null $query
      * @param string|null $expect
