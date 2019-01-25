@@ -35,9 +35,6 @@ use Kirby\Toolkit\Url;
  * aspects of your site, like the options, urls,
  * roots, languages, roles, etc.
  *
- * The App object is a big-ass monolith that's
- * in the center between all the other CMS classes.
- *
  * @package   Kirby Cms
  * @author    Bastian Allgeier <bastian@getkirby.com>
  * @link      http://getkirby.com
