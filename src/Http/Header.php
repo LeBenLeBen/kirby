@@ -8,8 +8,6 @@ use Kirby\Toolkit\F;
  * The Header class provides methods
  * for sending HTTP headers.
  *
- * Makes sending HTTP headers a breeze
- *
  * @package   Kirby Http
  * @author    Bastian Allgeier <bastian@getkirby.com>
  * @link      http://getkirby.com
