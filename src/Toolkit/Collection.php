@@ -552,7 +552,7 @@ class Collection extends Iterator
     }
 
     /**
-     * CChecks if the number of elements is more than zero
+     * Checks if the number of elements is more than zero
      *
      * @return boolean
      */
