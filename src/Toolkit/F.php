@@ -13,8 +13,6 @@ use ZipArchive;
  * level, like creating, reading,
  * deleting, copying or validatings files.
  *
- * Low level file handling utilities
- *
  * @package   Kirby Toolkit
  * @author    Bastian Allgeier <bastian@getkirby.com>
  * @link      http://getkirby.com
