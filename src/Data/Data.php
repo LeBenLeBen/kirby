@@ -16,9 +16,6 @@ use Kirby\Toolkit\F;
  * detect, which data handler to use in order
  * to correctly encode and decode passed data.
  *
- * Data Handlers for the class can be
- * extended and customized.
- *
  * @package   Kirby
  * @author    Bastian Allgeier <bastian@getkirby.com>
  * @link      http://getkirby.com
