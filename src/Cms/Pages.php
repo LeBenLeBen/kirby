@@ -12,17 +12,6 @@ namespace Kirby\Cms;
  * an Excel sheet, any API or any other
  * source.
  *
- * Pages collection can be constructed very
- * easily:
- *
- * ```php
- * $collection = new Pages([
- *   new Page(['id' => 'project-a']),
- *   new Page(['id' => 'project-b']),
- *   new Page(['id' => 'project-c']),
- * ]);
- * ```
- *
  * @package   Kirby Cms
  * @author    Bastian Allgeier <bastian@getkirby.com>
  * @link      http://getkirby.com
