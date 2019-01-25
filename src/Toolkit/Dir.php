@@ -11,8 +11,6 @@ use Exception;
  * listing, moving, copying or
  * evaluating directories etc.
  *
- * Low level directory handling utilities
- *
  * @package   Kirby Toolkit
  * @author    Bastian Allgeier <bastian@getkirby.com>
  * @link      http://getkirby.com
