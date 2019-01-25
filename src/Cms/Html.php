@@ -7,10 +7,6 @@ namespace Kirby\Cms;
  * common HTML tags and also contains some helper
  * methods.
  *
- * Custom extension of the Toolkit Html builder class
- * that overwrites the Html::a method to include Cms
- * Url handling.
- *
  * @package   Kirby Cms
  * @author    Bastian Allgeier <bastian@getkirby.com>
  * @link      http://getkirby.com
