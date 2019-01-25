@@ -14,10 +14,6 @@ use Kirby\Toolkit\Pagination as BasePagination;
  * to navigate between these pages,
  * create a navigation etc.
  *
- * The extended Pagination class handles
- * URLs in addition to the pagination features
- * from Kirby\Toolkit\Pagination
- *
  * @package   Kirby Cms
  * @author    Bastian Allgeier <bastian@getkirby.com>
  * @link      http://getkirby.com
