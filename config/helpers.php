@@ -411,9 +411,9 @@ function kirbytags(string $text = null, array $data = []): string
  * @param array $data
  * @return string
  */
-function kirbytext(string $text = null, array $data = []): string
+function kirbytext(string $text = null, bool $wrapped = true, array $data = []): string
 {
-    return App::instance()->kirbytext($text, $data);
+    return App::instance()->kirbytext($text, $wrapped, $data);
 }
 
 /**

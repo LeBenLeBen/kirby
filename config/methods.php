@@ -289,8 +289,8 @@ return function (App $app) {
         /**
          * Converts the field content from Markdown/Kirbytext to valid HTML
          */
-        'kirbytext' => function (Field $field) use ($app) {
-            $field->value = $app->kirbytext($field->value, [
+        'kirbytext' => function (Field $field, bool $wrapped = true) use ($app) {
+            $field->value = $app->kirbytext($field->value, $wrapped, [
                 'parent' => $field->parent(),
                 'field'  => $field
             ]);

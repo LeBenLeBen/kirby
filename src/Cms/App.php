@@ -589,12 +589,19 @@ class App
      * @param array $data
      * @return string
      */
-    public function kirbytext(string $text = null, array $data = []): string
+    public function kirbytext(string $text = null, bool $wrapped = true, array $data = []): string
     {
         $text = $this->apply('kirbytext:before', $text);
         $text = $this->kirbytags($text, $data);
         $text = $this->markdown($text);
         $text = $this->apply('kirbytext:after', $text);
+
+        if ($wrapped === false) {
+            if ('<p>' === Str::substr($text, 0, 3) &&
+                '</p>' === Str::substr($text, -4)) {
+                return Str::substr($text, 3, -4);
+            }
+        }
 
         return $text;
     }

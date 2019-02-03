@@ -373,6 +373,21 @@ class HelpersTest extends TestCase
         $this->assertEquals($expected, $tag);
     }
 
+    public function testKirbyTextHelper()
+    {
+        // normal KirbyText
+        $tag = kirbytext('(link: https://getkirby.com text: Kirby)');
+        $expected = '<p><a href="https://getkirby.com">Kirby</a></p>';
+
+        $this->assertEquals($expected, $tag);
+
+        // not wrapped KirbyText
+        $tag = kirbytext('(link: https://getkirby.com text: Kirby)', false);
+        $expected = '<a href="https://getkirby.com">Kirby</a>';
+
+        $this->assertEquals($expected, $tag);
+    }
+
     public function testMarkdownHelper()
     {
         $tag = markdown('# Kirby');
