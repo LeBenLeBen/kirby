@@ -13,6 +13,7 @@
     "testkit:reset": "./scripts/reset-testkit"
   },
   "dependencies": {
+    "@getkirby/api-js": "^1.0.0",
     "autosize": "^4.0.2",
     "dayjs": "^1.7.8",
     "npm": "^6.5.0",
